@@ -93,6 +93,17 @@ function generatePassword() {
         "/",
         "?",
       ];
+      var password = "";
+
+      //Generating the password
+      for (var i = 0; password.length < passLength; i++) {
+        //random select lowercase, upper case, numeric and special characters
+        var randomType = Math.floor(Math.random() * 4);
+        //random lower case character
+        if (randomType === 0 && lowercaseConfirm) {
+          console.log(`randomType: ${randomType} = lowercase`);
+        }
+      }
     }
   }
 }
