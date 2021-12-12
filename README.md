@@ -19,3 +19,18 @@ selected.
   THEN the password is either displayed in an alert or written to the page
 
 ## Landing Page
+
+![Landing Page](./Develop/images/landingpage.png)
+
+## Usage
+
+Use the generate password button to initialize the generation of random password
+Follow the on screen prompts
+
+![Usage](./Develop/images/screenprompts.png)
+
+## Installation
+
+Project was uploaded to [Github](https://github.com/) at the following repository: https://github.com/patty345/Password_Generator
+
+You can find the deployed application in the Github pages link: https://patty345.github.io/Password_Generator/
