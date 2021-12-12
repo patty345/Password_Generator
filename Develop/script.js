@@ -117,6 +117,24 @@ function generatePassword() {
           console.log(`randomUpperCase: ${randomUpperCase}`);
           password = password + randomUpperCase;
         }
+
+        //random number characters
+        else if (randomType === 2 && numberConfirm) {
+          console.log(`randomType: ${randomType} = number`);
+          var randomNumberChar =
+            numArray[Math.floor(Math.random() * randomNumberChar.length)];
+          console.log(`randomNumberChar: ${randomNumberChar}`);
+          password = password + randomNumberChar;
+        }
+
+        // random special characters
+        else if (randomType === 3 && specialConfirm) {
+          console.log(`randomType: ${randomType} = special`);
+          var randomSpecialChar =
+            specialArray[Math.floor(Math.random() * randomSpecialChar.length)];
+          console.log(`randomSpecialChar: ${randomSpecialChar}`);
+          password = password + randomSpecialChar;
+        }
       }
     }
   }
