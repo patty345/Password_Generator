@@ -20,14 +20,14 @@ selected.
 
 ## Landing Page
 
-![Landing Page](./Develop/images/landingpage.png)
+![Landing Page](/Develop/images/landingpage.png)
 
 ## Usage
 
 Use the generate password button to initialize the generation of random password
 Follow the on screen prompts
 
-![Usage](./Develop/images/screenprompts.png)
+![Usage](/Develop/images/screenprompts.png)
 
 ## Installation
 
