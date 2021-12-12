@@ -136,7 +136,18 @@ function generatePassword() {
           password = password + randomSpecialChar;
         }
       }
+
+      // return the generated password
+      console.log(`password: ${password}`);
+      console.log(`password length: ${password.length}`);
+      return password;
+    } else {
+      alert("Please select one character type");
+      generatePassword();
     }
+  } else {
+    alert("Please select a length number between 8 to 128 characters");
+    generatePassword();
   }
 }
 
