@@ -34,3 +34,7 @@ Follow the on screen prompts
 Project was uploaded to [Github](https://github.com/) at the following repository: https://github.com/patty345/Password_Generator
 
 You can find the deployed application in the Github pages link: https://patty345.github.io/Password_Generator/
+
+## Output
+
+The output of this challenge was to really emphazise Javascript
