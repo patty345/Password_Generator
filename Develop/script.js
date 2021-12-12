@@ -108,6 +108,15 @@ function generatePassword() {
           console.log(`randomLowerCase: ${radnomLowerCase}`);
           password = password + radnomLowerCase;
         }
+
+        //random upper case character
+        else if (randomType === 1 && uppercaseConfirm) {
+          console.log(`randomType: ${randomType} = uppercase`);
+          var randomUpperCase =
+            upperArray[Math.floor(Math.random() * randomUpperCase.length)];
+          console.log(`randomUpperCase: ${randomUpperCase}`);
+          password = password + randomUpperCase;
+        }
       }
     }
   }
