@@ -113,7 +113,7 @@ function generatePassword() {
         else if (randomType === 1 && uppercaseConfirm) {
           console.log(`randomType: ${randomType} = uppercase`);
           var randomUpperCase =
-            upperArray[Math.floor(Math.random() * randomUpperCase.length)];
+            upperArray[Math.floor(Math.random() * upperArray.length)];
           console.log(`randomUpperCase: ${randomUpperCase}`);
           password = password + randomUpperCase;
         }
@@ -122,7 +122,7 @@ function generatePassword() {
         else if (randomType === 2 && numberConfirm) {
           console.log(`randomType: ${randomType} = number`);
           var randomNumberChar =
-            numArray[Math.floor(Math.random() * randomNumberChar.length)];
+            numArray[Math.floor(Math.random() * numArray.length)];
           console.log(`randomNumberChar: ${randomNumberChar}`);
           password = password + randomNumberChar;
         }
@@ -131,7 +131,7 @@ function generatePassword() {
         else if (randomType === 3 && specialConfirm) {
           console.log(`randomType: ${randomType} = special`);
           var randomSpecialChar =
-            specialArray[Math.floor(Math.random() * randomSpecialChar.length)];
+            specialArray[Math.floor(Math.random() * specialArray.length)];
           console.log(`randomSpecialChar: ${randomSpecialChar}`);
           password = password + randomSpecialChar;
         }
